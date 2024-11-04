@@ -2,17 +2,17 @@ package models;
 
 import java.sql.Date;
 
-public class funcion {
+public class Funcion {
     private Date horaFuncion;
     private Date fecha;
-    private sala sala;
-    private pelicula pelicula;
+    private Sala sala;
+    private Pelicula pelicula;
 
-    public funcion(){
+    public Funcion(){
         
     }
 
-    public funcion(Date horaFuncion, Date fecha, sala sala, pelicula pelicula) {
+    public Funcion(Date horaFuncion, Date fecha, Sala sala, Pelicula pelicula) {
         this.horaFuncion = horaFuncion;
         this.fecha = fecha;
         this.sala = sala;
@@ -35,19 +35,19 @@ public class funcion {
         this.fecha = fecha;
     }
 
-    public sala getSala() {
+    public Sala getSala() {
         return sala;
     }
 
-    public void setSala(sala sala) {
+    public void setSala(Sala sala) {
         this.sala = sala;
     }
 
-    public pelicula getPelicula() {
+    public Pelicula getPelicula() {
         return pelicula;
     }
 
-    public void setPelicula(pelicula pelicula) {
+    public void setPelicula(Pelicula pelicula) {
         this.pelicula = pelicula;
     }
 

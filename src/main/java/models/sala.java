@@ -1,16 +1,16 @@
 package models;
 
-public class sala {
+public class Sala {
     private int idSala;
     private int numeroSala;
     private int capacidad;
     private String tipo;
 
-    public sala(){
+    public Sala(){
         
     }
 
-    public sala(int idSala, int numeroSala, int capacidad, String tipo) {
+    public Sala(int idSala, int numeroSala, int capacidad, String tipo) {
         this.idSala = idSala;
         this.numeroSala = numeroSala;
         this.capacidad = capacidad;

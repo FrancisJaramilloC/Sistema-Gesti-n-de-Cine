@@ -1,17 +1,17 @@
 package models;
 
-public class pelicula {
+public class Pelicula {
     private int idPelicula;
     private String titulo;
     private String genero;
     private float duracion;
     private String clasificacion;
 
-    public pelicula(){
+    public Pelicula(){
         
     }
 
-    public pelicula(int idPelicula, String titulo, String genero, float duracion, String clasificacion) {
+    public Pelicula(int idPelicula, String titulo, String genero, float duracion, String clasificacion) {
         this.idPelicula = idPelicula;
         this.titulo = titulo;
         this.genero = genero;
@@ -59,5 +59,5 @@ public class pelicula {
         this.clasificacion = clasificacion;
     }
 
-    
+
 }
