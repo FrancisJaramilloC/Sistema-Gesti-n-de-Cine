@@ -15,7 +15,9 @@ Desarrollar el modelo inicial de un sistema de gestión para un cine que permita
 
 Objetivos específicos:
 Determinar las entidades esenciales que componen el sistema de un cine y cómo interactúan entre sí, para que cada uno de estos sea representado como un TDA o clase. 
+
 Definir los atributos y relaciones necesarias para cada TDA.
+
 Desarrollar un diagrama visual de los TDA´s en el cual se representen las entidades del sistema y sus relaciones de manera clara y comprensible.
 
 
