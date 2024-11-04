@@ -1,24 +1,25 @@
 package controller.dao;
 
-import models.Persona;
+import models.Boleto;
 import controller.dao.implement.AdapterDao;
 import controller.tda.list.LinkedList;
 
-public class PersonaDao extends AdapterDao<Persona> {
-    private Persona persona = new Persona();
+
+public class BoletoDao extends AdapterDao<Boleto> {
+    private Boleto boleto = new Boleto();
     private LinkedList listAll;
-    public PersonaDao(){
-        super(Persona.class);
+    public BoletoDao(){
+        super(Boleto.class);
     }
-    public Persona getPersona(){
-        if (persona == null) {
-            persona = new Persona();
+    public Boleto getBoleto(){
+        if (boleto == null) {
+            boleto = new Boleto();
         }
-        return this.persona;
+        return this.boleto;
     }
 
-    public void setPersona(Persona persona){
-        this.persona = persona;
+    public void setBoleto(Boleto boleto){
+        this.boleto = boleto;
     }
 
     public LinkedList getlistAll(){
@@ -29,10 +30,11 @@ public class PersonaDao extends AdapterDao<Persona> {
     }
     public Boolean save() throws Exception{
         Integer id = getlistAll().getSize()+1;
-        persona.setIdPersona(id);
-        this.persist(this.persona);
+        boleto.setIdBoleto(id);
+        this.persist(this.boleto);
         this.listAll = listAll();
         return true;
     }
     
+
 }
