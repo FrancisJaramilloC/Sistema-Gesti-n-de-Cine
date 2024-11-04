@@ -41,7 +41,7 @@ Esta estructura modular permite gestionar de manera eficaz cada aspecto operativ
 
 
                                                                       TDA
-                              
-  ![WhatsApp Image 2024-10-29 at 11 13 19](https://github.com/user-attachments/assets/69ae0e8a-9cee-4f71-8f16-853aac06551e) 
-(⁠｡｡⁠)V 1.0.0.0
+![TDA_SistemaGestionCine](https://github.com/user-attachments/assets/22bad7d1-0cfb-4c66-9d7c-05ee53f077a0)
+  
+V 1.0.0.0
 
