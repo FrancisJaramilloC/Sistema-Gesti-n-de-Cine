@@ -10,10 +10,16 @@ Al diseñar este sistema, se analizaron y discutieron las principales problemát
 
 ## Objetivos
 
-1. Facilitar la administración de la cartelera de películas y la programación de funciones.
-2. Implementar un sistema de autenticación y gestión de cuentas para asegurar el acceso adecuado a las funcionalidades.
-3. Gestionar las reservas y asignación de asientos para optimizar la experiencia del usuario.
-4. Organizar las clases y la estructura del sistema siguiendo el enfoque de TDA (Tipos Abstractos de Datos) para mejorar la modularidad y mantenimiento del código.
+Objetivo General:
+Desarrollar el modelo inicial de un sistema de gestión para un cine que permita representar y organizar las entidades clave mediante TDA´s como base para construir un sistema que facilite la administración eficiente de funciones, reservas y recursos de un cine.
+
+Objetivos específicos:
+Determinar las entidades esenciales que componen el sistema de un cine y cómo interactúan entre sí, para que cada uno de estos sea representado como un TDA o clase. 
+
+Definir los atributos y relaciones necesarias para cada TDA.
+
+Desarrollar un diagrama visual de los TDA´s en el cual se representen las entidades del sistema y sus relaciones de manera clara y comprensible.
+
 
 ## Diseño de Clases (TDA)
 
@@ -35,7 +41,7 @@ Esta estructura modular permite gestionar de manera eficaz cada aspecto operativ
 
 
                                                                       TDA
-                              
-  ![WhatsApp Image 2024-10-29 at 11 13 19](https://github.com/user-attachments/assets/69ae0e8a-9cee-4f71-8f16-853aac06551e) 
-(⁠｡｡⁠)V 1.0.0.0
+![TDA_SistemaGestionCine](https://github.com/user-attachments/assets/22bad7d1-0cfb-4c66-9d7c-05ee53f077a0)
+  
+V 1.0.0.0
 
